@@ -224,6 +224,9 @@ div.techstack_icon>i.fa-python {
 div.techstack_icon>i.fa-react {
     color: #61DBFB;
 }
+div.techstack_icon>i.fa-sql {
+    color: #2f00ff;
+}
 
 div.techstack_icon>i.fa-git-alt {
     color: #F1502F;

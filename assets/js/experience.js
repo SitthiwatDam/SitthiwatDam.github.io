@@ -4,27 +4,49 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+  // {
+  //   title: "Software Development Intern",
+  //   cardImage: "assets/images/experience-page/flipkart.jpg",
+  //   place: "Flipkart",
+  //   time: "(May, 2020 - present)",
+  //   desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+  // },
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Business Analyst (Contract)",
+    cardImage: "assets/images/experience-page/AIBL.svg",
+    place: "AI Brain Lab",
+    time: "(November, 2023 - June, 2025)",
+    desp: "<li>Gathered and analyzed stakeholder requirements to align AI projects with business objectives.</li>\
+          <li>Authored BRD, FRD, SoW, and ToR documents to guide development and ensure stakeholder alignment.</li>\
+          <li>Created AI-driven product mockups and interactive Proof of Concept (PoC) to visualize solutions and secure buy-in.</li>\
+          <li>Implemented Agile practices to streamline execution and enhance cross-functional collaboration.</li>\
+          <li>Led UAT coordination and training sessions, and authored user documentation to support product adoption.</li>\
+          <li>Applied BPMN for business process modeling and optimization in AI solution design.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-  },
-  {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
-  },
+  title: "AI Training for Thai Writers (Part-time)",
+  cardImage: "assets/images/experience-page/remotask_logo.svg", // Replace with your actual image path or leave placeholder
+  place: "Remotasks",
+  time: "(Mar 2024 - May 2024)",
+  desp: `
+    <li>Contributed to AI model training by providing high-quality Thai language data through writing and annotation tasks.</li>
+    <li>Performed linguistic evaluations, translation validations, and prompt-based content generation for Thai NLP applications.</li>
+    <li>Collaborated in a remote environment to meet quality and consistency benchmarks for AI systems.</li>
+  `
+},
+{
+  title: "Research Intern – Intelligent Transportation Systems",
+  cardImage: "assets/images/experience-page/keioLab.svg", // Replace with your actual image path or leave placeholder
+  place: "Keio University",
+  time: "(Jun 2022 - Jul 2022)",
+  desp: `
+    <li>Conducted research on intelligent vehicle systems, including autonomous driving and advanced driver assistance systems (ADAS).</li>
+    <li>Developed embedded software with microprocessors using C++ for simulation and testing of traffic automation modules.</li>
+    <li>Collaborated with cross-cultural research teams in Japan, contributing to smart mobility innovation in a real-world lab setting.</li>
+  `
+}
+
+
 ];
 
 const showCards2 = () => {
